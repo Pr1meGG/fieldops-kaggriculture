@@ -146,7 +146,7 @@ CROP_DATA: dict[str, dict] = {
         "base_price": 250,
         "yield_type": "one_time",
         "first_yield_day": 10,
-        "max_yield_day": 10,
+        "max_yield_day": 12,
         "max_yield": 6,
         "max_yield_unf": 6,
         "action_cost": 1,
