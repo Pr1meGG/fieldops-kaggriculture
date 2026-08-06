@@ -1,18 +1,12 @@
 """
-agent.py — FieldOps entry point.
+agent.py — FieldOps Stage 1 Aggressive Expansion Agent.
 
-This is the only file that Kaggle calls. It is intentionally thin:
-all logic lives in state.py, planner.py, and executor.py.
-
-The agent() function signature must match what Kaggle expects:
-    def agent(obs: dict) -> dict
-
-The returned dict must have the shape:
-    {
-        "farmer": [op, ...args],
-        "hands":  [[op, ...args], ...],
-        "market": [[op, ...args], ...],
-    }
+Implements:
+- Continuous production cycles (MELON -> CARROT fast finish).
+- Dynamic land expansion (BUY_LAND for NE, SW, SE quadrants when cash permits).
+- Dynamic workforce scaling (hires hands up to target count based on unlocked land).
+- Dynamic continuous seed purchasing (re-orders seeds for all empty unlocked tiles).
+- Single-pass target list unit scheduling (HARVEST -> WATER -> DROP -> PLANT).
 """
 
 import logging
@@ -35,11 +29,8 @@ def _log_debug_info(state: GameState) -> None:
     my_farm = state.my_farm
     logger.info(
         f"Step: {state.step} | Day: {state.day} | Hour: {state.hour} | "
-        f"Money: {my_farm.money} | "
-        f"Farmer Pos: ({my_farm.farmer.position.x}, {my_farm.farmer.position.y})"
+        f"Money: ${my_farm.money:,.2f} | Quadrants: {my_farm.unlocked_quadrants}"
     )
-    # Log inventory
-    logger.info(f"Inventory: {dict(my_farm.farmer.inventory.items)}")
 
 def _distance(p1: Position, p2: Position) -> int:
     return abs(p1.x - p2.x) + abs(p1.y - p2.y)
@@ -70,18 +61,60 @@ class MiniMelonAgent:
             "market": []
         }
         
-        # 2. Market actions
-        if len(my_farm.hands) == 0 and my_farm.money >= 1:
+        # -------------------------------------------------------------------
+        # 1. Market Logic: Selling, Land Purchase, Hiring, Seed Purchase
+        # -------------------------------------------------------------------
+        
+        # A. Sell all harvested products sitting in shed
+        if my_farm.shed is not None:
+            for item, count in my_farm.shed.items.items():
+                if count > 0 and item != "FERTILIZER":
+                    actions["market"].append(["SELL", item, count])
+                    
+        # B. Dynamic Land Purchase Policy
+        # Quadrants: 1 (NW unlocked), 2 ($1k), 3 ($2k), 4 ($4k)
+        quads_unlocked = len(my_farm.unlocked_quadrants)
+        if quads_unlocked < 4:
+            land_cost = 1000 if quads_unlocked == 1 else (2000 if quads_unlocked == 2 else 4000)
+            seed_buffer = 25 * CROP_DATA["MELON"]["seed_cost"]  # $2,000
+            worker_buffer = 100
+            
+            # Buy land if cash >= land_cost + seed_buffer + worker_buffer AND remaining day <= 18
+            if my_farm.money >= (land_cost + seed_buffer + worker_buffer) and state.day <= 18:
+                actions["market"].append(["BUY_LAND"])
+                
+        # C. Dynamic Workforce Scaling
+        # Scale daily hires with unlocked land (25 tiles -> 2 workers, 50 -> 3, 75 -> 4, 100 -> 5)
+        target_hands = min(5, quads_unlocked + 1)
+        if my_farm.hires_today < target_hands and my_farm.money >= 50:
             actions["market"].append(["HIRE"])
             
-        if my_farm.shed.get("MELON") > 0:
-            actions["market"].append(["SELL", "MELON", my_farm.shed.get("MELON")])
-            
-        if state.step == 0:
-            actions["market"].append(["BUY_SEED", "MELON", 12])
-            
-        # 3. Build target lists ONCE per turn
-        max_yield_day = CROP_DATA["MELON"]["max_yield_day"]
+        # D. Dynamic Continuous Seed Purchasing
+        empty_unlocked_tiles = [
+            Position(x=x, y=y)
+            for y, row in enumerate(my_farm.tiles)
+            for x, tile in enumerate(row)
+            if tile.is_empty()
+        ]
+        num_empty = len(empty_unlocked_tiles)
+        
+        # Select target crop based on remaining time window
+        target_crop = "MELON" if state.step <= 408 else ("CARROT" if state.step <= 600 else None)
+        
+        if target_crop is not None and num_empty > 0:
+            current_seeds = my_farm.seeds.get(target_crop) if my_farm.seeds else 0
+            needed_seeds = num_empty - current_seeds
+            if needed_seeds > 0:
+                seed_cost = CROP_DATA[target_crop]["seed_cost"]
+                buy_qty = min(needed_seeds, int(my_farm.money // seed_cost))
+                if buy_qty > 0:
+                    actions["market"].append(["BUY_SEED", target_crop, buy_qty])
+
+        # -------------------------------------------------------------------
+        # 2. Single-Pass Target Lists & Unit Scheduler
+        # -------------------------------------------------------------------
+        max_melon_day = CROP_DATA["MELON"]["max_yield_day"]
+        max_carrot_day = CROP_DATA["CARROT"]["max_yield_day"]
         
         unwatered_tiles: list[Position] = []
         harvestable_tiles: list[Position] = []
@@ -90,8 +123,9 @@ class MiniMelonAgent:
         for y, row in enumerate(my_farm.tiles):
             for x, tile in enumerate(row):
                 pos = Position(x=x, y=y)
-                if tile.kind == "PLANT" and tile.crop == "MELON":
-                    if tile.planted_day is not None and (state.day - tile.planted_day) >= max_yield_day:
+                if tile.kind == "PLANT":
+                    max_day = max_melon_day if tile.crop == "MELON" else max_carrot_day
+                    if tile.planted_day is not None and (state.day - tile.planted_day) >= max_day:
                         harvestable_tiles.append(pos)
                     elif not tile.watered_today:
                         unwatered_tiles.append(pos)
@@ -99,13 +133,14 @@ class MiniMelonAgent:
                     empty_tiles.append(pos)
                     
         shed_tiles = [Position(x=x, y=y) for x, y in SHED_ADJACENT_TILES]
-        
         all_units = [my_farm.farmer] + list(my_farm.hands)
         unit_actions = []
         targeted_tiles: set[Position] = set()
         
-        seeds_available = my_farm.seeds.get("MELON", 0)
-        seeds_reserved = 0
+        melon_seeds_avail = my_farm.seeds.get("MELON") if my_farm.seeds else 0
+        carrot_seeds_avail = my_farm.seeds.get("CARROT") if my_farm.seeds else 0
+        melon_reserved = 0
+        carrot_reserved = 0
         
         for unit in all_units:
             # Priority 1: WATER urgent unwatered plants
@@ -132,8 +167,9 @@ class MiniMelonAgent:
                 unit_actions.append(action)
                 continue
                 
-            # Priority 3: DROP carried yield immediately
-            if unit.inventory.items.get("MELON", 0) > 0:
+            # Priority 3: DROP carried produce immediately
+            has_produce = any(count > 0 for item, count in unit.inventory.items.items() if item != "FERTILIZER")
+            if has_produce:
                 target = min(shed_tiles, key=lambda p: _distance(unit.position, p))
                 if unit.position in shed_tiles:
                     action = ["DROP"]
@@ -142,15 +178,25 @@ class MiniMelonAgent:
                 unit_actions.append(action)
                 continue
                 
-            # Priority 4: PLANT seeds in empty tiles
-            if (seeds_available - seeds_reserved) > 0:
-                valid_empty = [p for p in empty_tiles if p not in targeted_tiles]
-                if valid_empty:
+            # Priority 4: PLANT available seeds into empty tiles
+            valid_empty = [p for p in empty_tiles if p not in targeted_tiles]
+            if valid_empty:
+                if (melon_seeds_avail - melon_reserved) > 0:
                     target = min(valid_empty, key=lambda p: _distance(unit.position, p))
                     targeted_tiles.add(target)
-                    seeds_reserved += 1
+                    melon_reserved += 1
                     if unit.position == target:
                         action = ["PLANT", "MELON"]
+                    else:
+                        action = [_choose_movement(unit.position, target)]
+                    unit_actions.append(action)
+                    continue
+                elif (carrot_seeds_avail - carrot_reserved) > 0:
+                    target = min(valid_empty, key=lambda p: _distance(unit.position, p))
+                    targeted_tiles.add(target)
+                    carrot_reserved += 1
+                    if unit.position == target:
+                        action = ["PLANT", "CARROT"]
                     else:
                         action = [_choose_movement(unit.position, target)]
                     unit_actions.append(action)
@@ -166,5 +212,5 @@ class MiniMelonAgent:
 _agent_instance = MiniMelonAgent()
 
 def agent(obs: dict[str, Any]) -> dict[str, Any]:
-    """FieldOps agent entry point."""
+    """FieldOps entry point."""
     return _agent_instance(obs)

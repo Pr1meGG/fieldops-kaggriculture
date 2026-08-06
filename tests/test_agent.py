@@ -1,4 +1,5 @@
 import logging
+import os
 from unittest.mock import patch
 
 from kaggle_environments import make
@@ -42,3 +43,17 @@ def test_agent_integration(caplog):
                 assert "farmer" in p_state.action
                 assert "hands" in p_state.action
                 assert "market" in p_state.action
+
+def test_root_main_py_execution():
+    """
+    Integration test proving root-level main.py can be executed directly by kaggle_environments.
+    """
+    root_main = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "main.py")
+    assert os.path.exists(root_main), "root main.py must exist!"
+    
+    env = make("kaggriculture", debug=True)
+    steps = env.run([root_main, "pass"])
+    
+    last_step = steps[-1]
+    assert last_step[0].status == "DONE" or last_step[0].status == "ACTIVE"
+    assert last_step[0].reward is not None and last_step[0].reward > 20000
