@@ -84,8 +84,10 @@ class MiniMelonAgent:
                 actions["market"].append(["BUY_LAND"])
                 
         # C. Dynamic Workforce Scaling
-        # Scale daily hires with unlocked land (25 tiles -> 2 workers, 50 -> 3, 75 -> 4, 100 -> 5)
-        target_hands = min(5, quads_unlocked + 1)
+        # Scale daily hires with unlocked land based on the PROVEN Phase 1 optimum of 14 tiles per worker.
+        total_tiles = quads_unlocked * 25
+        target_hands = (total_tiles // 14) - 1
+        target_hands = max(0, target_hands)
         if my_farm.hires_today < target_hands and my_farm.money >= 50:
             actions["market"].append(["HIRE"])
             
@@ -98,12 +100,30 @@ class MiniMelonAgent:
         ]
         num_empty = len(empty_unlocked_tiles)
         
-        # Select target crop based on remaining time window
-        target_crop = "MELON" if state.step <= 408 else ("CARROT" if state.step <= 600 else None)
+        # Select target crop based on remaining time window and expected profit
+        best_crop = None
+        best_profit = -1
+        
+        for crop_name, data in CROP_DATA.items():
+            if state.day + data["max_yield_day"] <= 29:
+                profit = data["base_price"] * data["max_yield_unf"] - data["seed_cost"]
+                if profit > best_profit:
+                    best_profit = profit
+                    best_crop = crop_name
+                    
+        target_crop = best_crop
         
         if target_crop is not None and num_empty > 0:
-            current_seeds = my_farm.seeds.get(target_crop) if my_farm.seeds else 0
-            needed_seeds = num_empty - current_seeds
+            # Count how many seeds we already have that can still mature
+            usable_seeds = 0
+            if my_farm.seeds:
+                for c_name, count in my_farm.seeds.items():
+                    if state.day + CROP_DATA[c_name]["max_yield_day"] <= 29:
+                        usable_seeds += count
+            
+            target_buffer = min(num_empty, 8)
+            needed_seeds = target_buffer - usable_seeds
+            
             if needed_seeds > 0:
                 seed_cost = CROP_DATA[target_crop]["seed_cost"]
                 buy_qty = min(needed_seeds, int(my_farm.money // seed_cost))
@@ -137,10 +157,7 @@ class MiniMelonAgent:
         unit_actions = []
         targeted_tiles: set[Position] = set()
         
-        melon_seeds_avail = my_farm.seeds.get("MELON") if my_farm.seeds else 0
-        carrot_seeds_avail = my_farm.seeds.get("CARROT") if my_farm.seeds else 0
-        melon_reserved = 0
-        carrot_reserved = 0
+        seed_reserves = {}
         
         for unit in all_units:
             # Priority 1: WATER urgent unwatered plants
@@ -181,22 +198,26 @@ class MiniMelonAgent:
             # Priority 4: PLANT available seeds into empty tiles
             valid_empty = [p for p in empty_tiles if p not in targeted_tiles]
             if valid_empty:
-                if (melon_seeds_avail - melon_reserved) > 0:
+                best_seed_crop = None
+                best_seed_profit = -1
+                
+                if my_farm.seeds:
+                    for crop_name, count in my_farm.seeds.items():
+                        reserved = seed_reserves.get(crop_name, 0)
+                        if count - reserved > 0:
+                            data = CROP_DATA.get(crop_name)
+                            if data and state.day + data["max_yield_day"] <= 29:
+                                profit = data["base_price"] * data["max_yield_unf"] - data["seed_cost"]
+                                if profit > best_seed_profit:
+                                    best_seed_profit = profit
+                                    best_seed_crop = crop_name
+                                    
+                if best_seed_crop is not None:
                     target = min(valid_empty, key=lambda p: _distance(unit.position, p))
                     targeted_tiles.add(target)
-                    melon_reserved += 1
+                    seed_reserves[best_seed_crop] = seed_reserves.get(best_seed_crop, 0) + 1
                     if unit.position == target:
-                        action = ["PLANT", "MELON"]
-                    else:
-                        action = [_choose_movement(unit.position, target)]
-                    unit_actions.append(action)
-                    continue
-                elif (carrot_seeds_avail - carrot_reserved) > 0:
-                    target = min(valid_empty, key=lambda p: _distance(unit.position, p))
-                    targeted_tiles.add(target)
-                    carrot_reserved += 1
-                    if unit.position == target:
-                        action = ["PLANT", "CARROT"]
+                        action = ["PLANT", best_seed_crop]
                     else:
                         action = [_choose_movement(unit.position, target)]
                     unit_actions.append(action)
