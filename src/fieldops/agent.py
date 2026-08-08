@@ -9,6 +9,7 @@ from fieldops.managers.worker_manager import WorkerManager
 from fieldops.managers.crop_manager import CropManager
 from fieldops.managers.livestock_manager import LivestockManager
 from fieldops.managers.market_manager import MarketManager
+from fieldops.observatory.recorder import ObservatoryRecorder
 
 logger = logging.getLogger(__name__)
 
@@ -23,6 +24,7 @@ class AgentCoordinator:
             LivestockManager(),
             MarketManager()
         ]
+        self.observatory = ObservatoryRecorder()
 
     def __call__(self, obs: dict[str, Any]) -> dict[str, Any]:
         # 1. Read Observation & Build GameState
@@ -61,7 +63,10 @@ class AgentCoordinator:
             if "market" in mgr_actions and mgr_actions["market"]:
                 actions["market"].extend(mgr_actions["market"])
                 
-        # 5. Return actions
+        # 5. Passive observation
+        self.observatory.record_step(state, context, actions)
+        
+        # 6. Return actions
         return actions
 
 _coordinator_instance = AgentCoordinator()
@@ -71,6 +76,10 @@ def agent(obs: dict[str, Any], config: dict[str, Any] = None) -> dict[str, Any]:
     if not isinstance(obs, dict):
         return {"farmer": ["PASS"], "hands": [], "market": []}
     if getattr(obs, 'step', 0) > 718:
+        try:
+            _coordinator_instance.observatory.finalize()
+        except Exception as e:
+            logger.error(f"Observatory export failed: {e}")
         return {"farmer": ["PASS"], "hands": [], "market": []}
         
     try:
