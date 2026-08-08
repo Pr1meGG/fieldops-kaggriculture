@@ -1,0 +1,5152 @@
+{
+  "60": {
+    "reward": 29415.225,
+    "delta_vs_champ": -17270.025,
+    "win_rate": 0.0,
+    "harvests": 18.2,
+    "avg_idle_tiles": 12.88625,
+    "water_backlog": 4.504102920723227,
+    "quad_stats": {
+      "2": {
+        "unlock_rate": 0.0,
+        "avg_profit": 0,
+        "avg_unlock_day": 0,
+        "avg_utilization": 0
+      },
+      "3": {
+        "unlock_rate": 0.0,
+        "avg_profit": 0,
+        "avg_unlock_day": 0,
+        "avg_utilization": 0
+      },
+      "4": {
+        "unlock_rate": 0.0,
+        "avg_profit": 0,
+        "avg_unlock_day": 0,
+        "avg_utilization": 0
+      }
+    },
+    "raw_results": [
+      {
+        "seed": 200,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.527777777777779,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 201,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.4625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 202,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 203,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.86111111111111,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 204,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 205,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.366666666666667,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 206,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 207,
+        "reward": 29209.0,
+        "harvest_count": 18,
+        "productive_pct": 0.43115438108484005,
+        "avg_water_backlog": 4.543810848400557,
+        "market_revenue": 29748,
+        "avg_idle_tiles": 11.127777777777778,
+        "avg_plant_count": 8.845833333333333,
+        "avg_cash_reserve": 10004.533333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 208,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 209,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.594444444444445,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 210,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.031944444444445,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 211,
+        "reward": 30752.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4200278164116829,
+        "avg_water_backlog": 4.198887343532684,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 11.4875,
+        "avg_plant_count": 8.422222222222222,
+        "avg_cash_reserve": 10205.8,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 212,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.5625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 213,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.7625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 214,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 215,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.427777777777777,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 216,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 217,
+        "reward": 30752.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4200278164116829,
+        "avg_water_backlog": 4.198887343532684,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 11.520833333333334,
+        "avg_plant_count": 8.422222222222222,
+        "avg_cash_reserve": 10205.8,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 218,
+        "reward": 30742.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4200278164116829,
+        "avg_water_backlog": 4.198887343532684,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 12.220833333333333,
+        "avg_plant_count": 8.422222222222222,
+        "avg_cash_reserve": 10202.8,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 219,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 11.597222222222221,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 220,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.8625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 221,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.695833333333333,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 222,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.094444444444445,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 223,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.727777777777778,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 224,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.865277777777777,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 225,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 226,
+        "reward": 32433.0,
+        "harvest_count": 20,
+        "productive_pct": 0.4534075104311544,
+        "avg_water_backlog": 4.759388038942976,
+        "market_revenue": 33090,
+        "avg_idle_tiles": 10.631944444444445,
+        "avg_plant_count": 9.22638888888889,
+        "avg_cash_reserve": 9783.166666666666,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 227,
+        "reward": 29149.0,
+        "harvest_count": 18,
+        "productive_pct": 0.43115438108484005,
+        "avg_water_backlog": 4.543810848400557,
+        "market_revenue": 29748,
+        "avg_idle_tiles": 12.126388888888888,
+        "avg_plant_count": 8.845833333333333,
+        "avg_cash_reserve": 9982.866666666667,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 228,
+        "reward": 30742.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4200278164116829,
+        "avg_water_backlog": 4.198887343532684,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 12.186111111111112,
+        "avg_plant_count": 8.422222222222222,
+        "avg_cash_reserve": 10202.8,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 229,
+        "reward": 30742.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4200278164116829,
+        "avg_water_backlog": 4.198887343532684,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 12.58611111111111,
+        "avg_plant_count": 8.422222222222222,
+        "avg_cash_reserve": 10202.8,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 230,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.995833333333334,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 231,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.527777777777779,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 232,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 11.997222222222222,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 233,
+        "reward": 30763.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4339360222531293,
+        "avg_water_backlog": 4.421418636995828,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 11.377777777777778,
+        "avg_plant_count": 8.8125,
+        "avg_cash_reserve": 10150.6,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 234,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.894444444444444,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 235,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.2625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 236,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.427777777777777,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 237,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.497222222222222,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 238,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.8625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 239,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.794444444444444,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      }
+    ]
+  },
+  "70": {
+    "reward": 29415.225,
+    "delta_vs_champ": -17270.025,
+    "win_rate": 0.0,
+    "harvests": 18.2,
+    "avg_idle_tiles": 12.88625,
+    "water_backlog": 4.504102920723227,
+    "quad_stats": {
+      "2": {
+        "unlock_rate": 0.0,
+        "avg_profit": 0,
+        "avg_unlock_day": 0,
+        "avg_utilization": 0
+      },
+      "3": {
+        "unlock_rate": 0.0,
+        "avg_profit": 0,
+        "avg_unlock_day": 0,
+        "avg_utilization": 0
+      },
+      "4": {
+        "unlock_rate": 0.0,
+        "avg_profit": 0,
+        "avg_unlock_day": 0,
+        "avg_utilization": 0
+      }
+    },
+    "raw_results": [
+      {
+        "seed": 200,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.527777777777779,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 201,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.4625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 202,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 203,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.86111111111111,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 204,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 205,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.366666666666667,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 206,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 207,
+        "reward": 29209.0,
+        "harvest_count": 18,
+        "productive_pct": 0.43115438108484005,
+        "avg_water_backlog": 4.543810848400557,
+        "market_revenue": 29748,
+        "avg_idle_tiles": 11.127777777777778,
+        "avg_plant_count": 8.845833333333333,
+        "avg_cash_reserve": 10004.533333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 208,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 209,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.594444444444445,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 210,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.031944444444445,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 211,
+        "reward": 30752.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4200278164116829,
+        "avg_water_backlog": 4.198887343532684,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 11.4875,
+        "avg_plant_count": 8.422222222222222,
+        "avg_cash_reserve": 10205.8,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 212,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.5625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 213,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.7625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 214,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 215,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.427777777777777,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 216,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 217,
+        "reward": 30752.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4200278164116829,
+        "avg_water_backlog": 4.198887343532684,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 11.520833333333334,
+        "avg_plant_count": 8.422222222222222,
+        "avg_cash_reserve": 10205.8,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 218,
+        "reward": 30742.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4200278164116829,
+        "avg_water_backlog": 4.198887343532684,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 12.220833333333333,
+        "avg_plant_count": 8.422222222222222,
+        "avg_cash_reserve": 10202.8,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 219,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 11.597222222222221,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 220,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.8625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 221,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.695833333333333,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 222,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.094444444444445,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 223,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.727777777777778,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 224,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.865277777777777,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 225,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 226,
+        "reward": 32433.0,
+        "harvest_count": 20,
+        "productive_pct": 0.4534075104311544,
+        "avg_water_backlog": 4.759388038942976,
+        "market_revenue": 33090,
+        "avg_idle_tiles": 10.631944444444445,
+        "avg_plant_count": 9.22638888888889,
+        "avg_cash_reserve": 9783.166666666666,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 227,
+        "reward": 29149.0,
+        "harvest_count": 18,
+        "productive_pct": 0.43115438108484005,
+        "avg_water_backlog": 4.543810848400557,
+        "market_revenue": 29748,
+        "avg_idle_tiles": 12.126388888888888,
+        "avg_plant_count": 8.845833333333333,
+        "avg_cash_reserve": 9982.866666666667,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 228,
+        "reward": 30742.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4200278164116829,
+        "avg_water_backlog": 4.198887343532684,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 12.186111111111112,
+        "avg_plant_count": 8.422222222222222,
+        "avg_cash_reserve": 10202.8,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 229,
+        "reward": 30742.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4200278164116829,
+        "avg_water_backlog": 4.198887343532684,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 12.58611111111111,
+        "avg_plant_count": 8.422222222222222,
+        "avg_cash_reserve": 10202.8,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 230,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.995833333333334,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 231,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.527777777777779,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 232,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 11.997222222222222,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 233,
+        "reward": 30763.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4339360222531293,
+        "avg_water_backlog": 4.421418636995828,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 11.377777777777778,
+        "avg_plant_count": 8.8125,
+        "avg_cash_reserve": 10150.6,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 234,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.894444444444444,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 235,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.2625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 236,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.427777777777777,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 237,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.497222222222222,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 238,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.8625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 239,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.794444444444444,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      }
+    ]
+  },
+  "80": {
+    "reward": 29415.225,
+    "delta_vs_champ": -17270.025,
+    "win_rate": 0.0,
+    "harvests": 18.2,
+    "avg_idle_tiles": 12.88625,
+    "water_backlog": 4.504102920723227,
+    "quad_stats": {
+      "2": {
+        "unlock_rate": 0.0,
+        "avg_profit": 0,
+        "avg_unlock_day": 0,
+        "avg_utilization": 0
+      },
+      "3": {
+        "unlock_rate": 0.0,
+        "avg_profit": 0,
+        "avg_unlock_day": 0,
+        "avg_utilization": 0
+      },
+      "4": {
+        "unlock_rate": 0.0,
+        "avg_profit": 0,
+        "avg_unlock_day": 0,
+        "avg_utilization": 0
+      }
+    },
+    "raw_results": [
+      {
+        "seed": 200,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.527777777777779,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 201,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.4625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 202,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 203,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.86111111111111,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 204,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 205,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.366666666666667,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 206,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 207,
+        "reward": 29209.0,
+        "harvest_count": 18,
+        "productive_pct": 0.43115438108484005,
+        "avg_water_backlog": 4.543810848400557,
+        "market_revenue": 29748,
+        "avg_idle_tiles": 11.127777777777778,
+        "avg_plant_count": 8.845833333333333,
+        "avg_cash_reserve": 10004.533333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 208,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 209,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.594444444444445,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 210,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.031944444444445,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 211,
+        "reward": 30752.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4200278164116829,
+        "avg_water_backlog": 4.198887343532684,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 11.4875,
+        "avg_plant_count": 8.422222222222222,
+        "avg_cash_reserve": 10205.8,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 212,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.5625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 213,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.7625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 214,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 215,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.427777777777777,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 216,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 217,
+        "reward": 30752.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4200278164116829,
+        "avg_water_backlog": 4.198887343532684,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 11.520833333333334,
+        "avg_plant_count": 8.422222222222222,
+        "avg_cash_reserve": 10205.8,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 218,
+        "reward": 30742.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4200278164116829,
+        "avg_water_backlog": 4.198887343532684,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 12.220833333333333,
+        "avg_plant_count": 8.422222222222222,
+        "avg_cash_reserve": 10202.8,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 219,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 11.597222222222221,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 220,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.8625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 221,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.695833333333333,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 222,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.094444444444445,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 223,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.727777777777778,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 224,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.865277777777777,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 225,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 226,
+        "reward": 32433.0,
+        "harvest_count": 20,
+        "productive_pct": 0.4534075104311544,
+        "avg_water_backlog": 4.759388038942976,
+        "market_revenue": 33090,
+        "avg_idle_tiles": 10.631944444444445,
+        "avg_plant_count": 9.22638888888889,
+        "avg_cash_reserve": 9783.166666666666,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 227,
+        "reward": 29149.0,
+        "harvest_count": 18,
+        "productive_pct": 0.43115438108484005,
+        "avg_water_backlog": 4.543810848400557,
+        "market_revenue": 29748,
+        "avg_idle_tiles": 12.126388888888888,
+        "avg_plant_count": 8.845833333333333,
+        "avg_cash_reserve": 9982.866666666667,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 228,
+        "reward": 30742.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4200278164116829,
+        "avg_water_backlog": 4.198887343532684,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 12.186111111111112,
+        "avg_plant_count": 8.422222222222222,
+        "avg_cash_reserve": 10202.8,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 229,
+        "reward": 30742.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4200278164116829,
+        "avg_water_backlog": 4.198887343532684,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 12.58611111111111,
+        "avg_plant_count": 8.422222222222222,
+        "avg_cash_reserve": 10202.8,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 230,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.995833333333334,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 231,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.527777777777779,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 232,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 11.997222222222222,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 233,
+        "reward": 30763.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4339360222531293,
+        "avg_water_backlog": 4.421418636995828,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 11.377777777777778,
+        "avg_plant_count": 8.8125,
+        "avg_cash_reserve": 10150.6,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 234,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.894444444444444,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 235,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.2625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 236,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.427777777777777,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 237,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.497222222222222,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 238,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.8625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 239,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.794444444444444,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      }
+    ]
+  },
+  "90": {
+    "reward": 29415.225,
+    "delta_vs_champ": -17270.025,
+    "win_rate": 0.0,
+    "harvests": 18.2,
+    "avg_idle_tiles": 12.88625,
+    "water_backlog": 4.504102920723227,
+    "quad_stats": {
+      "2": {
+        "unlock_rate": 0.0,
+        "avg_profit": 0,
+        "avg_unlock_day": 0,
+        "avg_utilization": 0
+      },
+      "3": {
+        "unlock_rate": 0.0,
+        "avg_profit": 0,
+        "avg_unlock_day": 0,
+        "avg_utilization": 0
+      },
+      "4": {
+        "unlock_rate": 0.0,
+        "avg_profit": 0,
+        "avg_unlock_day": 0,
+        "avg_utilization": 0
+      }
+    },
+    "raw_results": [
+      {
+        "seed": 200,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.527777777777779,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 201,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.4625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 202,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 203,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.86111111111111,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 204,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 205,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.366666666666667,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 206,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 207,
+        "reward": 29209.0,
+        "harvest_count": 18,
+        "productive_pct": 0.43115438108484005,
+        "avg_water_backlog": 4.543810848400557,
+        "market_revenue": 29748,
+        "avg_idle_tiles": 11.127777777777778,
+        "avg_plant_count": 8.845833333333333,
+        "avg_cash_reserve": 10004.533333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 208,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 209,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.594444444444445,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 210,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.031944444444445,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 211,
+        "reward": 30752.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4200278164116829,
+        "avg_water_backlog": 4.198887343532684,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 11.4875,
+        "avg_plant_count": 8.422222222222222,
+        "avg_cash_reserve": 10205.8,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 212,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.5625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 213,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.7625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 214,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 215,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.427777777777777,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 216,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 217,
+        "reward": 30752.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4200278164116829,
+        "avg_water_backlog": 4.198887343532684,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 11.520833333333334,
+        "avg_plant_count": 8.422222222222222,
+        "avg_cash_reserve": 10205.8,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 218,
+        "reward": 30742.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4200278164116829,
+        "avg_water_backlog": 4.198887343532684,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 12.220833333333333,
+        "avg_plant_count": 8.422222222222222,
+        "avg_cash_reserve": 10202.8,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 219,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 11.597222222222221,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 220,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.8625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 221,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.695833333333333,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 222,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.094444444444445,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 223,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.727777777777778,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 224,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.865277777777777,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 225,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 226,
+        "reward": 32433.0,
+        "harvest_count": 20,
+        "productive_pct": 0.4534075104311544,
+        "avg_water_backlog": 4.759388038942976,
+        "market_revenue": 33090,
+        "avg_idle_tiles": 10.631944444444445,
+        "avg_plant_count": 9.22638888888889,
+        "avg_cash_reserve": 9783.166666666666,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 227,
+        "reward": 29149.0,
+        "harvest_count": 18,
+        "productive_pct": 0.43115438108484005,
+        "avg_water_backlog": 4.543810848400557,
+        "market_revenue": 29748,
+        "avg_idle_tiles": 12.126388888888888,
+        "avg_plant_count": 8.845833333333333,
+        "avg_cash_reserve": 9982.866666666667,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 228,
+        "reward": 30742.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4200278164116829,
+        "avg_water_backlog": 4.198887343532684,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 12.186111111111112,
+        "avg_plant_count": 8.422222222222222,
+        "avg_cash_reserve": 10202.8,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 229,
+        "reward": 30742.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4200278164116829,
+        "avg_water_backlog": 4.198887343532684,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 12.58611111111111,
+        "avg_plant_count": 8.422222222222222,
+        "avg_cash_reserve": 10202.8,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 230,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.995833333333334,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 231,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.527777777777779,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 232,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 11.997222222222222,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 233,
+        "reward": 30763.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4339360222531293,
+        "avg_water_backlog": 4.421418636995828,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 11.377777777777778,
+        "avg_plant_count": 8.8125,
+        "avg_cash_reserve": 10150.6,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 234,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.894444444444444,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 235,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.2625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 236,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.427777777777777,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 237,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.497222222222222,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 238,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.8625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 239,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.794444444444444,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      }
+    ]
+  },
+  "100": {
+    "reward": 29415.225,
+    "delta_vs_champ": -17270.025,
+    "win_rate": 0.0,
+    "harvests": 18.2,
+    "avg_idle_tiles": 12.88625,
+    "water_backlog": 4.504102920723227,
+    "quad_stats": {
+      "2": {
+        "unlock_rate": 0.0,
+        "avg_profit": 0,
+        "avg_unlock_day": 0,
+        "avg_utilization": 0
+      },
+      "3": {
+        "unlock_rate": 0.0,
+        "avg_profit": 0,
+        "avg_unlock_day": 0,
+        "avg_utilization": 0
+      },
+      "4": {
+        "unlock_rate": 0.0,
+        "avg_profit": 0,
+        "avg_unlock_day": 0,
+        "avg_utilization": 0
+      }
+    },
+    "raw_results": [
+      {
+        "seed": 200,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.527777777777779,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 201,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.4625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 202,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 203,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.86111111111111,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 204,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 205,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.366666666666667,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 206,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 207,
+        "reward": 29209.0,
+        "harvest_count": 18,
+        "productive_pct": 0.43115438108484005,
+        "avg_water_backlog": 4.543810848400557,
+        "market_revenue": 29748,
+        "avg_idle_tiles": 11.127777777777778,
+        "avg_plant_count": 8.845833333333333,
+        "avg_cash_reserve": 10004.533333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 208,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 209,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.594444444444445,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 210,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.031944444444445,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 211,
+        "reward": 30752.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4200278164116829,
+        "avg_water_backlog": 4.198887343532684,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 11.4875,
+        "avg_plant_count": 8.422222222222222,
+        "avg_cash_reserve": 10205.8,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 212,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.5625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 213,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.7625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 214,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 215,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.427777777777777,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 216,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 217,
+        "reward": 30752.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4200278164116829,
+        "avg_water_backlog": 4.198887343532684,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 11.520833333333334,
+        "avg_plant_count": 8.422222222222222,
+        "avg_cash_reserve": 10205.8,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 218,
+        "reward": 30742.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4200278164116829,
+        "avg_water_backlog": 4.198887343532684,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 12.220833333333333,
+        "avg_plant_count": 8.422222222222222,
+        "avg_cash_reserve": 10202.8,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 219,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 11.597222222222221,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 220,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.8625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 221,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.695833333333333,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 222,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.094444444444445,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 223,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.727777777777778,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 224,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.865277777777777,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 225,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.926388888888889,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 226,
+        "reward": 32433.0,
+        "harvest_count": 20,
+        "productive_pct": 0.4534075104311544,
+        "avg_water_backlog": 4.759388038942976,
+        "market_revenue": 33090,
+        "avg_idle_tiles": 10.631944444444445,
+        "avg_plant_count": 9.22638888888889,
+        "avg_cash_reserve": 9783.166666666666,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 227,
+        "reward": 29149.0,
+        "harvest_count": 18,
+        "productive_pct": 0.43115438108484005,
+        "avg_water_backlog": 4.543810848400557,
+        "market_revenue": 29748,
+        "avg_idle_tiles": 12.126388888888888,
+        "avg_plant_count": 8.845833333333333,
+        "avg_cash_reserve": 9982.866666666667,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 228,
+        "reward": 30742.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4200278164116829,
+        "avg_water_backlog": 4.198887343532684,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 12.186111111111112,
+        "avg_plant_count": 8.422222222222222,
+        "avg_cash_reserve": 10202.8,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 229,
+        "reward": 30742.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4200278164116829,
+        "avg_water_backlog": 4.198887343532684,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 12.58611111111111,
+        "avg_plant_count": 8.422222222222222,
+        "avg_cash_reserve": 10202.8,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 230,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.995833333333334,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 231,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.527777777777779,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 232,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 11.997222222222222,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 233,
+        "reward": 30763.0,
+        "harvest_count": 19,
+        "productive_pct": 0.4339360222531293,
+        "avg_water_backlog": 4.421418636995828,
+        "market_revenue": 31380,
+        "avg_idle_tiles": 11.377777777777778,
+        "avg_plant_count": 8.8125,
+        "avg_cash_reserve": 10150.6,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 234,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.894444444444444,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 235,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.2625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 236,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.427777777777777,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 237,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.497222222222222,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 238,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 12.8625,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      },
+      {
+        "seed": 239,
+        "reward": 29075.0,
+        "harvest_count": 18,
+        "productive_pct": 0.4325452016689847,
+        "avg_water_backlog": 4.545201668984701,
+        "market_revenue": 29742,
+        "avg_idle_tiles": 13.794444444444444,
+        "avg_plant_count": 8.841666666666667,
+        "avg_cash_reserve": 9897.633333333333,
+        "quads": {
+          "2": {
+            "cost": 1000,
+            "unlocked": false
+          },
+          "3": {
+            "cost": 2000,
+            "unlocked": false
+          },
+          "4": {
+            "cost": 4000,
+            "unlocked": false
+          }
+        }
+      }
+    ]
+  }
+}

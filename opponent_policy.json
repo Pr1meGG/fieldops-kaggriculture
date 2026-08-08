@@ -1,0 +1,251 @@
+{
+  "starting_liquidation": {
+    "observed": true,
+    "details": {
+      "units_sold": 152
+    }
+  },
+  "capital_policy": {
+    "minimum_observed_cash": 24.0,
+    "maximum_observed_cash": 151702.0,
+    "reinvestment_style": "Aggressive (cash drops near 0)"
+  },
+  "workforce_scaling": {
+    "hiring_events": [
+      {
+        "day": 0,
+        "hires": 5,
+        "workers_after": 5
+      },
+      {
+        "day": 2,
+        "hires": 2,
+        "workers_after": 2
+      },
+      {
+        "day": 3,
+        "hires": 1,
+        "workers_after": 1
+      },
+      {
+        "day": 4,
+        "hires": 4,
+        "workers_after": 4
+      },
+      {
+        "day": 5,
+        "hires": 1,
+        "workers_after": 1
+      },
+      {
+        "day": 6,
+        "hires": 2,
+        "workers_after": 2
+      },
+      {
+        "day": 7,
+        "hires": 8,
+        "workers_after": 8
+      },
+      {
+        "day": 8,
+        "hires": 5,
+        "workers_after": 5
+      },
+      {
+        "day": 9,
+        "hires": 7,
+        "workers_after": 7
+      },
+      {
+        "day": 10,
+        "hires": 8,
+        "workers_after": 8
+      },
+      {
+        "day": 11,
+        "hires": 14,
+        "workers_after": 14
+      },
+      {
+        "day": 12,
+        "hires": 7,
+        "workers_after": 7
+      },
+      {
+        "day": 13,
+        "hires": 11,
+        "workers_after": 11
+      },
+      {
+        "day": 14,
+        "hires": 7,
+        "workers_after": 7
+      },
+      {
+        "day": 15,
+        "hires": 11,
+        "workers_after": 11
+      },
+      {
+        "day": 16,
+        "hires": 11,
+        "workers_after": 11
+      },
+      {
+        "day": 17,
+        "hires": 12,
+        "workers_after": 12
+      },
+      {
+        "day": 18,
+        "hires": 10,
+        "workers_after": 10
+      },
+      {
+        "day": 19,
+        "hires": 12,
+        "workers_after": 12
+      },
+      {
+        "day": 20,
+        "hires": 14,
+        "workers_after": 14
+      },
+      {
+        "day": 21,
+        "hires": 12,
+        "workers_after": 12
+      },
+      {
+        "day": 22,
+        "hires": 13,
+        "workers_after": 13
+      },
+      {
+        "day": 23,
+        "hires": 14,
+        "workers_after": 14
+      },
+      {
+        "day": 24,
+        "hires": 14,
+        "workers_after": 14
+      },
+      {
+        "day": 25,
+        "hires": 12,
+        "workers_after": 12
+      },
+      {
+        "day": 26,
+        "hires": 11,
+        "workers_after": 11
+      },
+      {
+        "day": 27,
+        "hires": 14,
+        "workers_after": 14
+      },
+      {
+        "day": 28,
+        "hires": 10,
+        "workers_after": 10
+      },
+      {
+        "day": 29,
+        "hires": 11,
+        "workers_after": 11
+      }
+    ]
+  },
+  "land_expansion": {
+    "purchase_events": [
+      {
+        "day": 7,
+        "purchases": 1,
+        "land_after": 2
+      },
+      {
+        "day": 11,
+        "purchases": 1,
+        "land_after": 2
+      }
+    ]
+  },
+  "production_mix": {
+    "early_game": [
+      "MILK",
+      "WHEAT",
+      "WOOL",
+      "FERTILIZER"
+    ],
+    "mid_game": [
+      "MILK",
+      "FERTILIZER",
+      "WOOL",
+      "WHEAT",
+      "MELON",
+      "STRAWBERRY"
+    ],
+    "late_game": [
+      "MILK",
+      "WOOL",
+      "FERTILIZER",
+      "MELON",
+      "WHEAT",
+      "STRAWBERRY"
+    ]
+  },
+  "timeline_summary": {
+    "DAY_0": {
+      "hires": 5,
+      "cash_end": 52.0
+    },
+    "DAYS_1_5": {
+      "hires": 8,
+      "land_purchases": 0,
+      "units_sold": {
+        "FERTILIZER": 16,
+        "WHEAT": 65
+      }
+    },
+    "DAYS_6_10": {
+      "hires": 30,
+      "land_purchases": 1,
+      "animals_purchased": 5,
+      "units_sold": {
+        "FERTILIZER": 21,
+        "WHEAT": 88,
+        "WOOL": 18,
+        "MILK": 12,
+        "MELON": 60
+      }
+    },
+    "DAYS_11_20": {
+      "hires": 109,
+      "land_purchases": 1,
+      "units_sold": {
+        "MELON": 36,
+        "WHEAT": 31,
+        "FERTILIZER": 91,
+        "WOOL": 92,
+        "MILK": 128,
+        "STRAWBERRY": 76
+      }
+    },
+    "DAYS_21_29": {
+      "hires": 111,
+      "land_purchases": 0,
+      "units_sold": {
+        "MELON": 48,
+        "WOOL": 166,
+        "WHEAT": 313,
+        "MILK": 139,
+        "FERTILIZER": 87,
+        "STRAWBERRY": 288
+      },
+      "cash_end": 151702.0
+    }
+  }
+}

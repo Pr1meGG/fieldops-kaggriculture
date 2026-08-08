@@ -1,0 +1,110 @@
+{
+  "100_MELON": {
+    "reward": 47140.675,
+    "delta_vs_champ": 1057.4500000000044,
+    "win_rate": 0.95,
+    "avg_idle_tiles": 36.30545138888889,
+    "revenue": {
+      "MELON": 60114.89999999997
+    },
+    "profit": {
+      "MELON": 54092.89999999997
+    },
+    "avg_sell_price": {
+      "MELON": 230.30719807969803
+    },
+    "productive_pct": 0.24740329512893983
+  },
+  "90_MELON_10_WHEAT": {
+    "reward": 42124.625,
+    "delta_vs_champ": -3958.5999999999985,
+    "win_rate": 0.15,
+    "avg_idle_tiles": 34.06302083333333,
+    "revenue": {
+      "WHEAT": 783.0000000000001,
+      "MELON": 52127.600000000006
+    },
+    "profit": {
+      "WHEAT": 431.50000000000006,
+      "MELON": 47505.60000000001
+    },
+    "avg_sell_price": {
+      "WHEAT": 39.30529678654679,
+      "MELON": 249.73383880825068
+    },
+    "productive_pct": 0.2292711318051576
+  },
+  "80_MELON_20_WHEAT": {
+    "reward": 39154.55,
+    "delta_vs_champ": -6928.674999999996,
+    "win_rate": 0.025,
+    "avg_idle_tiles": 31.76829861111111,
+    "revenue": {
+      "WHEAT": 1320.4749999999997,
+      "MELON": 47964.55000000001
+    },
+    "profit": {
+      "WHEAT": 757.7249999999998,
+      "MELON": 43804.55000000002
+    },
+    "avg_sell_price": {
+      "WHEAT": 38.988254164136514,
+      "MELON": 262.3579403235654
+    },
+    "productive_pct": 0.222439111747851
+  },
+  "WHEAT_UNTIL_EXP1": {
+    "reward": 17520.375,
+    "delta_vs_champ": -28562.85,
+    "win_rate": 0.0,
+    "avg_idle_tiles": 35.56604166666666,
+    "revenue": {
+      "WHEAT": 667.0499999999998,
+      "MELON": 23418.850000000002
+    },
+    "profit": {
+      "WHEAT": 467.0500000000003,
+      "MELON": 20096.850000000002
+    },
+    "avg_sell_price": {
+      "WHEAT": 27.258333333333322,
+      "MELON": 276.223244047619
+    },
+    "productive_pct": 0.38975334427371583
+  },
+  "WHEAT_UNTIL_CASH_5000": {
+    "reward": 5495.5,
+    "delta_vs_champ": -40587.725,
+    "win_rate": 0.0,
+    "avg_idle_tiles": 28.617569444444445,
+    "revenue": {
+      "WHEAT": 6731.0
+    },
+    "profit": {
+      "WHEAT": 5360.0
+    },
+    "avg_sell_price": {
+      "WHEAT": 35.731183648826345
+    },
+    "productive_pct": 0.2404521812813179
+  },
+  "WHEAT_UNTIL_DAY_10": {
+    "reward": 28465.55,
+    "delta_vs_champ": -17617.675,
+    "win_rate": 0.0,
+    "avg_idle_tiles": 22.09920138888889,
+    "revenue": {
+      "WHEAT": 1937.1500000000003,
+      "MELON": 27934.2
+    },
+    "profit": {
+      "WHEAT": 1441.1500000000003,
+      "MELON": 25362.2
+    },
+    "avg_sell_price": {
+      "WHEAT": 28.825586566211573,
+      "MELON": 282.19438492063483
+    },
+    "productive_pct": 0.2700345193839618
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "champion": {
+    "mean_reward": 41534.51,
+    "median_reward": 42485.0,
+    "std_dev": 2142.7938219845964,
+    "min_reward": 34392.0,
+    "max_reward": 47471.0,
+    "mean_harvests": 38.53,
+    "mean_move_pct": 0.6373997233748271,
+    "mean_idle_pct": 0.08874596588289535,
+    "mean_water_backlog": 7.91452016689847
+  },
+  "challenger": {
+    "mean_reward": 46595.1,
+    "median_reward": 46989.0,
+    "std_dev": 1559.724745853666,
+    "min_reward": 41832.0,
+    "max_reward": 48819.0,
+    "mean_harvests": 47.15,
+    "mean_move_pct": 0.6339434097421204,
+    "mean_idle_pct": 0.0994054441260745,
+    "mean_water_backlog": 9.73712100139082
+  },
+  "comparison": {
+    "win_rate": 0.97,
+    "t_statistic": 19.09411006862717,
+    "degrees_of_freedom": 180.91186618588657,
+    "mean_diff": 5060.5899999999965
+  }
+}
