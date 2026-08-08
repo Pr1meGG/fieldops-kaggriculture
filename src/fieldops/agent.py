@@ -72,6 +72,18 @@ class AgentCoordinator:
         # Hardcoded 2-worker strategy (Hire 1 hand on step 0)
         if obs.get("step", 0) == 0:
             actions["market"].append(["HIRE"])
+            
+        # Hardcoded 12-Melon BUY_SEED strategy
+        my_farm = state.my_farm
+        num_seeds_needed = 12 - my_farm.seeds.get("MELON", 0) - sum(1 for row in my_farm.tiles for t in row if t.is_plant())
+        if num_seeds_needed > 0 and my_farm.money >= num_seeds_needed * 10:
+            actions["market"].append(["BUY_SEED", "MELON", num_seeds_needed])
+            
+        # Hardcoded SELL strategy
+        if my_farm.shed:
+            for item, count in my_farm.shed.items.items():
+                if count > 0 and item != "FERTILIZER":
+                    actions["market"].append(["SELL", item, count])
                 
         # 5. Passive observation
         self.observatory.record_step(state, context, actions, snapshot)
