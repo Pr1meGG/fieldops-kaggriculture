@@ -3,6 +3,7 @@ from typing import Any
 
 from fieldops.state import ObservationParser
 from fieldops.core.planner import DecisionContext
+from fieldops.core.economy import EconomicModel
 from fieldops.managers.economy_manager import EconomyManager
 from fieldops.managers.expansion_manager import ExpansionManager
 from fieldops.managers.worker_manager import WorkerManager
@@ -25,15 +26,20 @@ class AgentCoordinator:
             MarketManager()
         ]
         self.observatory = ObservatoryRecorder()
+        self.last_economic_snapshot = None
 
     def __call__(self, obs: dict[str, Any]) -> dict[str, Any]:
         # 1. Read Observation & Build GameState
         state = ObservationParser.parse(obs)
+        # 2. Economic Snapshot (Phase 2)
+        snapshot = EconomicModel.calculate(state, self.last_economic_snapshot)
+        self.last_economic_snapshot = snapshot
         
-        # 2. Create DecisionContext
+        # 3. Create DecisionContext & inject snapshot
         context = DecisionContext()
+        context.economic_snapshot = snapshot
         
-        # 3. Call Managers (Initialize, Update, Plan)
+        # 4. Call Managers (Initialize, Update, Plan)
         for manager in self.managers:
             manager.initialize(context)
             
@@ -64,7 +70,7 @@ class AgentCoordinator:
                 actions["market"].extend(mgr_actions["market"])
                 
         # 5. Passive observation
-        self.observatory.record_step(state, context, actions)
+        self.observatory.record_step(state, context, actions, snapshot)
         
         # 6. Return actions
         return actions
@@ -85,5 +91,5 @@ def agent(obs: dict[str, Any], config: dict[str, Any] = None) -> dict[str, Any]:
     try:
         return _coordinator_instance(obs)
     except Exception as e:
-        logger.error(f"Agent crashed: {e}")
+        raise e
         return {"farmer": ["PASS"], "hands": [], "market": []}

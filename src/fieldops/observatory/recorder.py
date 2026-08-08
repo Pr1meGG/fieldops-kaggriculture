@@ -26,7 +26,7 @@ class ObservatoryRecorder:
             base_id += f"_t{spawn_turn}"
         return base_id
 
-    def record_step(self, state, context, actions):
+    def record_step(self, state, context, actions, economic_snapshot=None):
         turn = state.day * 24 + state.hour
         
         # 1. Update Metrics (Passive observation)
@@ -48,6 +48,32 @@ class ObservatoryRecorder:
             "cash": state.my_farm.money,
             "actions": actions,
         }
+        
+        if economic_snapshot:
+            # We convert immutable mappings back to dict for JSON serialization
+            econ_dict = {
+                "cash": economic_snapshot.cash,
+                "inventory_cost_basis": economic_snapshot.inventory_cost_basis,
+                "inventory_market_value": economic_snapshot.inventory_market_value,
+                "livestock_cost_basis": economic_snapshot.livestock_cost_basis,
+                "livestock_market_value": economic_snapshot.livestock_market_value,
+                "land_cost_basis": economic_snapshot.land_cost_basis,
+                "land_value": economic_snapshot.land_value,
+                "total_cost_basis": economic_snapshot.total_cost_basis,
+                "total_market_value": economic_snapshot.total_market_value,
+                "total_wealth": economic_snapshot.total_wealth,
+                "market_prices": dict(economic_snapshot.market_prices),
+                "market_inventory": dict(economic_snapshot.market_inventory),
+                "market_prices_delta": dict(economic_snapshot.market_prices_delta),
+                "market_inventory_delta": dict(economic_snapshot.market_inventory_delta),
+                "net_cash_change": economic_snapshot.net_cash_change,
+                "delta_wealth": economic_snapshot.delta_wealth,
+                "delta_inventory_value": economic_snapshot.delta_inventory_value,
+                "wealth_per_worker": economic_snapshot.wealth_per_worker,
+                "wealth_per_tile": economic_snapshot.wealth_per_tile
+            }
+            snapshot["economy"] = econ_dict
+
         self.timeline.append(snapshot)
         
     def _update_economy(self, state, actions):
