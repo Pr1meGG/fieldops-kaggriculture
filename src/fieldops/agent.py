@@ -68,6 +68,10 @@ class AgentCoordinator:
             
             if "market" in mgr_actions and mgr_actions["market"]:
                 actions["market"].extend(mgr_actions["market"])
+        
+        # Hardcoded 2-worker strategy (Hire 1 hand on step 0)
+        if obs.get("step", 0) == 0:
+            actions["market"].append(["HIRE"])
                 
         # 5. Passive observation
         self.observatory.record_step(state, context, actions, snapshot)
