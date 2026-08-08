@@ -6,7 +6,7 @@ from fieldops.core.planner import DecisionContext
 from fieldops.core.economy import EconomicModel
 from fieldops.managers.economy_manager import EconomyManager
 from fieldops.managers.expansion_manager import ExpansionManager
-from fieldops.managers.worker_manager import WorkerManager
+from fieldops.managers.worker_manager import HybridWorkerManager, HybridDigWorkerManager, V2WorkerManager
 from fieldops.managers.crop_manager import CropManager
 from fieldops.managers.livestock_manager import LivestockManager
 from fieldops.managers.market_manager import MarketManager
@@ -20,7 +20,7 @@ class AgentCoordinator:
         self.managers = [
             EconomyManager(),
             ExpansionManager(),
-            WorkerManager(),
+            HybridWorkerManager(), # Default to Hybrid, can be swapped
             CropManager(),
             LivestockManager(),
             MarketManager()
@@ -79,6 +79,15 @@ _coordinator_instance = AgentCoordinator()
 
 def agent(obs: dict[str, Any], config: dict[str, Any] = None) -> dict[str, Any]:
     """FieldOps entry point."""
+    if config and "scheduler_version" in config:
+        if config.get("scheduler_version") == "V1":
+            _coordinator_instance.managers[2] = HybridWorkerManager()
+        elif config.get("scheduler_version") == "Hybrid":
+            _coordinator_instance.managers[2] = HybridWorkerManager()
+        elif config.get("scheduler_version") == "Hybrid_DIG":
+            _coordinator_instance.managers[2] = HybridDigWorkerManager()
+        elif config.get("scheduler_version") == "V2":
+            _coordinator_instance.managers[2] = V2WorkerManager()
     if not isinstance(obs, dict):
         return {"farmer": ["PASS"], "hands": [], "market": []}
     if getattr(obs, 'step', 0) > 718:
