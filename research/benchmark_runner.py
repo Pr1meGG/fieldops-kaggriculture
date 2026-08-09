@@ -515,11 +515,22 @@ def main():
 
     if args.agent_root:
         iso_root = os.path.abspath(args.agent_root)
-        if project_src in sys.path:
-            sys.path.remove(project_src)
+        
+        # 1. Remove project_src and the runner's own directory from sys.path
+        sys.path = [p for p in sys.path if not os.path.abspath(p).startswith(os.path.abspath(_PROJECT_ROOT))]
+        
+        # 2. Remove any pre-loaded fieldops modules (e.g. from previous steps or auto-imports)
+        keys_to_remove = [k for k in sys.modules.keys() if k == "fieldops" or k.startswith("fieldops.")]
+        for k in keys_to_remove:
+            del sys.modules[k]
+            
+        # 3. Insert the isolated root at the highest priority
         sys.path.insert(0, iso_root)
+        
+        print(f"[PRE-FLIGHT] Scrubbed project paths from sys.path")
+        print(f"[PRE-FLIGHT] Scrubbed {len(keys_to_remove)} fieldops modules from sys.modules")
         print(f"[PRE-FLIGHT] Inserted isolated root: {iso_root}")
-        print(f"[PRE-FLIGHT] Removed project root: {project_src}")
+        print(f"[PRE-FLIGHT] Current sys.path[:3]: {sys.path[:3]}")
     else:
         sys.path.insert(0, project_src)
 
@@ -528,6 +539,8 @@ def main():
 
     if ":" in args.agent:
         mod_name, func_name = args.agent.split(":")
+        
+        # 4. Import the requested agent ONLY AFTER isolation setup
         import importlib
         mod = importlib.import_module(mod_name)
         agent_obj = getattr(mod, func_name)
@@ -544,8 +557,13 @@ def main():
         
         if args.agent_root:
             iso_root = os.path.abspath(args.agent_root)
-            assert agent_file.startswith(iso_root), f"FATAL: Agent loaded from {agent_file}, expected under {iso_root}"
-            assert not agent_file.startswith(project_src), f"FATAL: Agent loaded from {agent_file}, which is in current repo src! Isolation failed."
+            
+            # 5. Hard fail assertions
+            if not agent_file.startswith(iso_root):
+                raise AssertionError(f"FATAL: Agent loaded from {agent_file}, expected under {iso_root}")
+            if agent_file.startswith(project_src):
+                raise AssertionError(f"FATAL: Agent loaded from {agent_file}, which is in current repo src! Isolation failed.")
+                
             print("Status:            PASS (Agent is fully isolated)")
         else:
             print("Status:            WARNING (No agent-root provided. Running from local checkout.)")
