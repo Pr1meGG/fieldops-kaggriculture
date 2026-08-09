@@ -1,4 +1,6 @@
-{
+import json
+
+notebook = {
   "cells": [
     {
       "cell_type": "markdown",
@@ -12,7 +14,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {},
       "outputs": [],
       "source": [
@@ -22,7 +24,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {},
       "outputs": [],
       "source": [
@@ -37,7 +39,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {},
       "outputs": [],
       "source": [
@@ -57,7 +59,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {},
       "outputs": [],
       "source": [
@@ -74,7 +76,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {},
       "outputs": [],
       "source": [
@@ -92,7 +94,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": None,
       "metadata": {},
       "outputs": [],
       "source": [
@@ -118,3 +120,8 @@
   "nbformat": 4,
   "nbformat_minor": 4
 }
+
+with open('/media/projects/playground/projects/fieldops/research/kaggle_research.ipynb', 'w') as f:
+    json.dump(notebook, f, indent=2)
+
+print("kaggle_research.ipynb generated.")

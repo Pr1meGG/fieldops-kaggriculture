@@ -34,7 +34,6 @@ import tracemalloc
 
 _THIS_DIR = os.path.dirname(os.path.abspath(__file__))
 _PROJECT_ROOT = os.path.dirname(_THIS_DIR)
-sys.path.insert(0, os.path.join(_PROJECT_ROOT, "src"))
 
 from kaggle_environments import make
 
@@ -329,10 +328,12 @@ def run_episode(agent_path: str, opponent: str, seed: int, save_replay: bool = F
 # ─────────────────────────────────────────────────────────────────────────────
 
 def run_experiment(
-    agent_path: str,
+    agent_obj,
+    agent_name: str,
     opponent: str,
     seeds: list,
     experiment_name: str,
+    champion_commit: str = "UNKNOWN",
     save_replays: bool = False,
     results_dir: str = None,
 ) -> str:
@@ -355,11 +356,12 @@ def run_experiment(
 
     print("=" * 72)
     print(f"EXPERIMENT:      {experiment_name}")
-    print(f"COMMIT:          {commit}")
+    print(f"RUNNER COMMIT:   {commit}")
+    print(f"CHAMPION COMMIT: {champion_commit}")
     print(f"BRANCH:          {branch}")
     print(f"ENGINE VERSION:  {engine_ver}")
     print(f"PYTHON VERSION:  {py_ver}")
-    print(f"AGENT:           {agent_path}")
+    print(f"AGENT:           {agent_name}")
     print(f"OPPONENT:        {opponent}")
     print(f"SEEDS:           {seeds}")
     print(f"TIMESTAMP:       {ts}")
@@ -367,12 +369,13 @@ def run_experiment(
 
     metadata = {
         "experiment_name": experiment_name,
-        "commit": commit,
+        "runner_commit": commit,
+        "champion_commit": champion_commit,
         "branch": branch,
         "engine_version": engine_ver,
         "python_version": py_ver,
         "timestamp": ts,
-        "agent": agent_path,
+        "agent": agent_name,
         "opponent": opponent,
         "seed_list": seeds,
         "save_replays": save_replays,
@@ -384,11 +387,11 @@ def run_experiment(
     csv_fields = None
 
     for seed in seeds:
-        result = run_episode(agent_path, opponent, seed, save_replay=save_replays)
+        result = run_episode(agent_obj, opponent, seed, save_replay=save_replays)
 
         if save_replays and "_steps" in result:
-            replay_meta = {"commit": commit, "seed": seed,
-                           "agent": agent_path, "opponent": opponent}
+            replay_meta = {"runner_commit": commit, "champion_commit": champion_commit, "seed": seed,
+                           "agent": agent_name, "opponent": opponent}
             replay_path = os.path.join(replay_dir, f"seed_{seed:05d}.json")
             save_replay_json(result.pop("_steps"), replay_path, replay_meta)
             result["replay_path"] = replay_path
@@ -424,11 +427,12 @@ def run_experiment(
         f"# Experiment: {experiment_name}",
         "",
         f"**Timestamp**: {ts}",
-        f"**Commit**: `{commit}`",
+        f"**Runner Commit**: `{commit}`",
+        f"**Champion Commit**: `{champion_commit}`",
         f"**Branch**: `{branch}`",
         f"**Engine**: `kaggle-environments {engine_ver}`",
         f"**Python**: `{py_ver}`",
-        f"**Agent**: `{agent_path}`",
+        f"**Agent**: `{agent_name}`",
         f"**Opponent**: `{opponent}`",
         f"**Seeds**: {seeds}",
         "",
@@ -489,8 +493,12 @@ def run_experiment(
 
 def main():
     parser = argparse.ArgumentParser(description="Kaggriculture Research Benchmark Runner")
+    parser.add_argument("--agent-root", default=None,
+                        help="Optional isolated source directory to insert at sys.path[0]")
     parser.add_argument("--agent", default="src/fieldops/agent.py",
-                        help="Agent path or built-in name. Default: src/fieldops/agent.py")
+                        help="Agent path, built-in name, or module syntax (e.g. fieldops.agent:agent)")
+    parser.add_argument("--champion-commit", default="UNKNOWN",
+                        help="The exact git commit hash of the champion being evaluated")
     parser.add_argument("--opponent", default="pass",
                         help="Opponent path or built-in ('pass','random','starter'). Default: pass")
     parser.add_argument("--seeds", nargs="+", type=int, required=True,
@@ -503,19 +511,61 @@ def main():
                         help="Override output base directory (default: research/results/)")
     args = parser.parse_args()
 
-    agent = args.agent
-    if not os.path.isabs(agent) and os.path.exists(os.path.join(_PROJECT_ROOT, agent)):
-        agent = os.path.join(_PROJECT_ROOT, agent)
+    project_src = os.path.abspath(os.path.join(_PROJECT_ROOT, "src"))
+
+    if args.agent_root:
+        iso_root = os.path.abspath(args.agent_root)
+        if project_src in sys.path:
+            sys.path.remove(project_src)
+        sys.path.insert(0, iso_root)
+        print(f"[PRE-FLIGHT] Inserted isolated root: {iso_root}")
+        print(f"[PRE-FLIGHT] Removed project root: {project_src}")
+    else:
+        sys.path.insert(0, project_src)
+
+    agent_obj = args.agent
+    agent_name = args.agent
+
+    if ":" in args.agent:
+        mod_name, func_name = args.agent.split(":")
+        import importlib
+        mod = importlib.import_module(mod_name)
+        agent_obj = getattr(mod, func_name)
+        
+        agent_file = os.path.abspath(mod.__file__)
+        
+        print(f"\n{'='*72}")
+        print(f"HARD VERIFICATION: AGENT ISOLATION")
+        print(f"{'='*72}")
+        print(f"Champion Commit:   {args.champion_commit}")
+        print(f"Current Runner:    {get_commit_hash()}")
+        print(f"Target Agent Mod:  {mod_name}")
+        print(f"Loaded Agent Path: {agent_file}")
+        
+        if args.agent_root:
+            iso_root = os.path.abspath(args.agent_root)
+            assert agent_file.startswith(iso_root), f"FATAL: Agent loaded from {agent_file}, expected under {iso_root}"
+            assert not agent_file.startswith(project_src), f"FATAL: Agent loaded from {agent_file}, which is in current repo src! Isolation failed."
+            print("Status:            PASS (Agent is fully isolated)")
+        else:
+            print("Status:            WARNING (No agent-root provided. Running from local checkout.)")
+        print(f"{'='*72}\n")
+    else:
+        # Fallback for paths
+        if not os.path.isabs(agent_obj) and os.path.exists(os.path.join(_PROJECT_ROOT, agent_obj)):
+            agent_obj = os.path.join(_PROJECT_ROOT, agent_obj)
 
     opponent = args.opponent
     if not os.path.isabs(opponent) and os.path.exists(os.path.join(_PROJECT_ROOT, opponent)):
         opponent = os.path.join(_PROJECT_ROOT, opponent)
 
     run_experiment(
-        agent_path=agent,
+        agent_obj=agent_obj,
+        agent_name=agent_name,
         opponent=opponent,
         seeds=args.seeds,
         experiment_name=args.experiment_name,
+        champion_commit=args.champion_commit,
         save_replays=args.save_replays,
         results_dir=args.results_dir,
     )
