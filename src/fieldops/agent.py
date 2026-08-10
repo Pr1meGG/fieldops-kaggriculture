@@ -69,9 +69,44 @@ class AgentCoordinator:
             if "market" in mgr_actions and mgr_actions["market"]:
                 actions["market"].extend(mgr_actions["market"])
         
-        # Hardcoded 2-worker strategy (Hire 1 hand on step 0)
-        if obs.get("step", 0) == 0:
-            actions["market"].append(["HIRE"])
+        # Experiment A-v2: Generational Workforce Policy
+        current_cash = state.my_farm.money
+        current_workers = len(state.my_farm.hands)
+        
+        # Calculate expected expenditure of actions already in the queue
+        # For this isolated candidate, the queue might be empty, but we simulate the HealthStone check.
+        expected_expenses = 0
+        for act in actions["market"]:
+            if act[0] == "BUY_SEED":
+                cost = 10 if act[1] == "WHEAT" else 80 if act[1] == "MELON" else 150
+                expected_expenses += cost * act[2]
+            elif act[0] == "BUY_ANIMAL":
+                cost = 300 if act[1] == "SHEEP" else 1000
+                expected_expenses += cost * act[2]
+                
+        available_cash = current_cash - expected_expenses
+        
+        # Rule 1: Wait for Expiration (or Step 0 opening)
+        # We only hire a generation if we have 0 workers (mass expiration event)
+        # Note: at Step 0 we have 0 workers, so it naturally handles the 3-worker opening!
+        if current_workers == 0:
+            def fib(n):
+                if n <= 1: return 1
+                a, b = 1, 1
+                for _ in range(n-1):
+                    a, b = b, a + b
+                return b
+
+            # Iteratively hire until available cash is exhausted
+            hires_today = 0
+            while len(actions["market"]) < 10:
+                cost = 5 * fib(hires_today + 1)
+                if available_cash >= cost:
+                    actions["market"].append(["HIRE"])
+                    available_cash -= cost
+                    hires_today += 1
+                else:
+                    break
             
         # Hardcoded 12-Melon BUY_SEED strategy
         my_farm = state.my_farm
