@@ -116,7 +116,7 @@ class AgentCoordinator:
             
         # Hardcoded SELL strategy
         if my_farm.shed:
-            for item, count in my_farm.shed.items.items():
+            for item, count in sorted(my_farm.shed.items.items()):
                 if count > 0 and item != "FERTILIZER":
                     actions["market"].append(["SELL", item, count])
                 
