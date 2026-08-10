@@ -34,7 +34,7 @@ notebook = {
         "!git clone https://github.com/Pr1meGG/fieldops-kaggriculture.git fieldops || echo 'Ensure repo is accessible'\n",
         "os.chdir('/kaggle/working/fieldops')\n",
         "!git fetch origin\n",
-        "!git checkout research/integrated-candidate"
+        "!git checkout 2f7c85f1b414beaba41b89578e3c55994da9d3e8"
       ]
     },
     {
