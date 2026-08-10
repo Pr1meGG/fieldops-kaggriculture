@@ -139,6 +139,7 @@ notebook = {
             "# 4. Mandatory zero-seed smoke test and immutable manifest\n"
             "import importlib\n"
             "import importlib.util\n"
+            "import json\n"
             "import sys\n"
             "\n"
             "runner_spec = importlib.util.spec_from_file_location(\n"
