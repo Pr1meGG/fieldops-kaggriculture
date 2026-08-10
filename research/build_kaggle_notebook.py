@@ -34,7 +34,7 @@ notebook = {
         "!git clone https://github.com/Pr1meGG/fieldops-kaggriculture.git fieldops || echo 'Ensure repo is accessible'\n",
         "os.chdir('/kaggle/working/fieldops')\n",
         "!git fetch origin\n",
-        "!git checkout 2f7c85f1b414beaba41b89578e3c55994da9d3e8"
+        "!git checkout 499d043e81041152b1422e95cb1515a6d0476b8a"
       ]
     },
     {
@@ -63,14 +63,14 @@ notebook = {
       "metadata": {},
       "outputs": [],
       "source": [
-        "# 4. Verify Champion (3 Seeds)\n",
+        "# 4. Benchmark A-v2 against pass agent (50 seeds)\n",
         "!python research/benchmark_runner.py \\\n",
         "    --agent-root /kaggle/working/champion_src/src \\\n",
         "    --agent fieldops.agent:agent \\\n",
         "    --champion-commit 1b05b9b6e4932e6bdf8a01497cf94cfbbd9aa61f \\\n",
         "    --opponent pass \\\n",
-        "    --seeds 1 2 3 \\\n",
-        "    --experiment-name champion_verification \\\n",
+        "    --seeds " + " ".join(str(i) for i in range(1, 51)) + " \\\n",
+        "    --experiment-name a_v2_50seed \\\n",
         "    --results-dir /kaggle/working/results"
       ]
     },
