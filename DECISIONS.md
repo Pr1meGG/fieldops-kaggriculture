@@ -120,3 +120,11 @@ in strategy or execution logic.
 ---
 
 *New decisions will be added as they are made. Only decisions that are not obvious from the code or BLUEPRINT.md belong here.*
+
+## Experiment Log — V1 → V2 (PROMOTED, locked 2026-09-30)
+- Change: target_crops 12 → 20 (src/fieldops/core/strategy.py, default StrategyConfig.target_crops)
+- Benchmark: simulate_20.py, seeds 1–20, one clean invocation
+- V1 mean: $37,103.10 → V2 mean: $49,212.55 (delta +$12,109.45 / +32.63%)
+- V2 stats: median $49,057 | min $48,234 | max $50,001 | stdev $403.91
+- Illegal actions: 0 | Runs completed: 20/20 | Melons harvested: 765 (V1: 438)
+- V2 is now the locked control. No further runs at target_crops=24 without approval.

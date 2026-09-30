@@ -29,6 +29,7 @@ class HybridWorkerManager(WorkerManager):
     Iterates over each worker, assigning them the closest available task.
     Weeds are ignored (PASS).
     """
+    preferred_crop = "MELON"  # set by strategy layer; fallback MELON
     def execute(self, state, context):
         my_farm = state.my_farm
         all_units = [my_farm.farmer] + list(my_farm.hands)
@@ -100,7 +101,7 @@ class HybridWorkerManager(WorkerManager):
             # Priority 4: PLANT
             valid_empty = [p for p in empty_tiles if p not in targeted_tiles]
             if valid_empty:
-                best_seed_crop = "MELON" # Hardcoded to Melon for identical conservative strategy
+                best_seed_crop = getattr(self, "preferred_crop", None) or "MELON"
                 if my_farm.seeds and my_farm.seeds.get(best_seed_crop, 0) > seed_reserves.get(best_seed_crop, 0):
                     target = min(valid_empty, key=lambda p: _distance(unit.position, p))
                     targeted_tiles.add(target)
@@ -196,7 +197,7 @@ class HybridDigWorkerManager(WorkerManager):
             # Priority 4: PLANT
             valid_empty = [p for p in empty_tiles if p not in targeted_tiles]
             if valid_empty:
-                best_seed_crop = "MELON" # Hardcoded to Melon for identical conservative strategy
+                best_seed_crop = getattr(self, "preferred_crop", None) or "MELON"
                 if my_farm.seeds and my_farm.seeds.get(best_seed_crop, 0) > seed_reserves.get(best_seed_crop, 0):
                     target = min(valid_empty, key=lambda p: _distance(unit.position, p))
                     targeted_tiles.add(target)
