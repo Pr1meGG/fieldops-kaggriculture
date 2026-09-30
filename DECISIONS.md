@@ -128,3 +128,14 @@ in strategy or execution logic.
 - V2 stats: median $49,057 | min $48,234 | max $50,001 | stdev $403.91
 - Illegal actions: 0 | Runs completed: 20/20 | Melons harvested: 765 (V1: 438)
 - V2 is now the locked control. No further runs at target_crops=24 without approval.
+
+## EXP-001 (2026-09-30): target_crops 20 → 24 on V3 — REJECT (25 seeds-equivalent 20-seed protocol)
+mean 48,532.45 vs control 50,106.20. Delta -1,573.75. Restored control.
+
+## EXP-002: task_mult 1.6 → 1.3 / 1.5 — REJECT (ties 1.5, loses at 1.3)
+## EXP-003: max_hires 3 → 4 — REJECT (49,769.20)
+## EXP-004: cash_reserve 250 → 150 — REJECT (identical, non-binding)
+## EXP-005: double-hire day 0 — REJECT (49,969.25)
+## EXP-006: BUY_LAND expansion — REJECT (43,359.00)
+
+## SUBMISSION VALIDATION V3 (50 seeds): mean $50,083.56, std $95, min 49,630, max 50,360
