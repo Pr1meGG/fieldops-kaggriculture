@@ -139,3 +139,14 @@ mean 48,532.45 vs control 50,106.20. Delta -1,573.75. Restored control.
 ## EXP-006: BUY_LAND expansion — REJECT (43,359.00)
 
 ## SUBMISSION VALIDATION V3 (50 seeds): mean $50,083.56, std $95, min 49,630, max 50,360
+
+## V5 cycle (2026-09-30)
+- EXP-007 harvest-before-water: +$97.8 → PROMOTE (V4: 50,204.15)
+- EXP-008 task_mult 1.4: +$240.8 → PROMOTE (V5: 50,444.95)
+- EXP-009 task_mult 1.2: -192.7 → REJECT
+- EXP-010 TC=22 on V5: -591.9 → REJECT; TC=21: -1,039; TC=18: -1,492 → TC=20 confirmed peak
+- EXP-011 max_hires=5 on V5: -1,189 → REJECT
+- Sell-floor $200: -605.9 → REJECT (on V3)
+- BUY_LAND: -6,747 → REJECT; fertilizer buy: untested worker path, dropped as low-ROI
+
+## CHAMPION: V5 (d7dbca5) — TC=20, max_hires=3, task_mult=1.4, harvest-first priority. 20-seed mean $50,444.95
