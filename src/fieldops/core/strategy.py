@@ -19,7 +19,7 @@ from fieldops import constants as C
 class StrategyConfig:
     """Tunable parameters for the decision layer (defaults = conservative)."""
     cash_reserve: int = 250             # minimum cash kept before spending
-    max_hires: int = 2                  # hard ceiling on concurrent hands
+    max_hires: int = 3                  # hard ceiling on concurrent hands
     task_mult: float = 1.6              # hired when pending_tasks/units exceeds this
     target_crops: int = 20              # target number of planted crop tiles
     seeds_reorder_at: int = 2           # replant when fewer than this many seeds on hand
