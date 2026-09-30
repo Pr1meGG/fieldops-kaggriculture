@@ -63,18 +63,6 @@ class HybridWorkerManager(WorkerManager):
         seed_reserves = {}
         
         for unit in all_units:
-            # Priority 1: WATER
-            valid_water = [p for p in unwatered_tiles if p not in targeted_tiles]
-            if valid_water:
-                target = min(valid_water, key=lambda p: _distance(unit.position, p))
-                targeted_tiles.add(target)
-                if unit.position == target:
-                    action = ["WATER"]
-                else:
-                    action = [_choose_movement(unit.position, target)]
-                unit_actions.append(action)
-                continue
-                
             # Priority 2: HARVEST
             valid_harvest = [p for p in harvestable_tiles if p not in targeted_tiles]
             if valid_harvest:
@@ -82,6 +70,18 @@ class HybridWorkerManager(WorkerManager):
                 targeted_tiles.add(target)
                 if unit.position == target:
                     action = ["HARVEST"]
+                else:
+                    action = [_choose_movement(unit.position, target)]
+                unit_actions.append(action)
+                continue
+                
+            # Priority 1: WATER
+            valid_water = [p for p in unwatered_tiles if p not in targeted_tiles]
+            if valid_water:
+                target = min(valid_water, key=lambda p: _distance(unit.position, p))
+                targeted_tiles.add(target)
+                if unit.position == target:
+                    action = ["WATER"]
                 else:
                     action = [_choose_movement(unit.position, target)]
                 unit_actions.append(action)
